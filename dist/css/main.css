@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif; }
+
+.light-text {
+  opacity: 0.5; }
+
+.fa-check-circle {
+  color: #264653; }
+
+.section-title {
+  font-size: 28px;
+  margin-left: 25%;
+  font-weight: bolder; }
+
+.sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left; }
+
+.contact-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left; }
+
+.subcenter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%; }
+
+#page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 2% 10% 0px 10%; }
+
+#head-container {
+  flex-grow: 1; }
+
+#main-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 0;
+  border-bottom: 1px solid #000;
+  padding: 2px; }
+  #main-header ul {
+    display: flex; }
+  #main-header li {
+    padding: 1rem 1.5rem;
+    list-style-type: none;
+    color: #264653; }
+    #main-header li a {
+      text-decoration: none; }
+    #main-header li:hover {
+      color: black;
+      cursor: pointer; }
+
+#title-link {
+  font-weight: 900;
+  text-align: center;
+  font-size: 3em;
+  color: #254441;
+  margin-bottom: .25em;
+  display: block;
+  text-decoration: none;
+  border-bottom: 0; }
+
+.main-section {
+  margin-bottom: 5rem; }
+
+#main-section-content {
+  display: flex;
+  justify-content: space-evenly; }
+
+#main-section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#resume-section-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-bottom: 20%; }
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20%;
+  margin-left: 35%; }
+
+.r-title {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+  left: 0; }
+
+#main-footer {
+  color: #333;
+  height: 2.5rem;
+  padding: 0 10px 0 10px;
+  bottom: 0;
+  width: 100%; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center; }
+  #main-footer .footer-content .social .fab {
+    margin-right: 1rem;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center; }
+  #main-footer .footer-content .social .fab:hover {
+    background: #ffbc00; }
+
+@media (max-width: 800px) {
+  #main-header {
+    flex-direction: column; }
+  #main-section-content {
+    flex-direction: column; } }
+
+.devicons {
+  font-size: 50px; }
