@@ -7,7 +7,7 @@ body {
     padding:0;
     margin:0;
     height:100%;
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .light-text{
     opacity: 0.5;
@@ -141,7 +141,16 @@ body {
     #main-header{
         flex-direction:column;
     }
-    #main-section-content{
+    #main-header {
+        ul  {
+            padding-left:0;
+        }
+        li{
+            padding: 0.5rem;
+        }
+        
+    }
+        #main-section-content{
         flex-direction:column;
     }
 }
