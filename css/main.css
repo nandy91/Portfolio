@@ -124,12 +124,22 @@ body {
 @media (max-width: 800px) {
   #main-header {
     flex-direction: column; }
+  #main-section-content {
+    flex-direction: column; } }
+
+.devicons {
+  font-size: 50px; }
+
+@media (max-width: 500px) {
+  #main-header {
+    flex-direction: column; }
   #main-header ul {
     padding-left: 0; }
   #main-header li {
     padding: 0.5rem; }
-  #main-section-content {
-    flex-direction: column; } }
+  #main-section-content, #resume-section-content, #project-section-content {
+    flex-direction: column;
+    margin-left: 5%; } }
 
 .devicons {
   font-size: 50px; }

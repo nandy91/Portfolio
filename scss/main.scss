@@ -141,6 +141,17 @@ body {
     #main-header{
         flex-direction:column;
     }
+        #main-section-content{
+        flex-direction:column;
+    }
+}
+.devicons{
+    font-size: 50px;
+}
+@media(max-width:500px){
+    #main-header{
+        flex-direction:column;
+    }
     #main-header {
         ul  {
             padding-left:0;
@@ -150,8 +161,10 @@ body {
         }
         
     }
-        #main-section-content{
+        #main-section-content, #resume-section-content, #project-section-content{
         flex-direction:column;
+        margin-left:5%;
+        
     }
 }
 .devicons{
